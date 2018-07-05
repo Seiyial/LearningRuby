@@ -84,5 +84,12 @@ Each **study place** record should include *information* (organised in key-value
 
 And... try to keep the keys concise yet descriptive.
 
+```ruby
+{
+  imaginary_power: 'Aurora Bending' # good
+  his_super_duper_imaginary_power: 'Aurora Bending' # bad, key is too long
+  thing: 'Aurora' # key is not descriptive enough
+ }
+
 
 
