@@ -36,3 +36,18 @@ study_areas = [
     }
 ]
 
+# hint: to leave an empty line, you can use
+#   puts ''
+# or put a \n at the end of the string of the previous `puts`:
+#   puts 'previous line stuff\n'
+#
+# For now, use the puts ''.
+
+
+
+
+
+
+
+
+
