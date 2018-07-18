@@ -36,6 +36,20 @@ study_areas = [
     }
 ]
 
+# study_areas.each do |study_area|
+#     puts study_area[:name]
+#     puts study_area[:level_of_crowdedness]
+#     puts study_area[:spending]
+#     puts ''
+# end
+
+study_areas.each do |xy|
+    puts xy[:name]
+    puts xy[:rough_location]
+    puts xy[:price_level]
+    puts ''
+end
+
 # hint: to leave an empty line, you can use
 #   puts ''
 # or put a \n at the end of the string of the previous `puts`:
@@ -44,7 +58,16 @@ study_areas = [
 # For now, use the puts ''.
 
 
+# studyarea = {
+#     name: 'School Library',
+#     rough_location: 'Nanyang Polytechnic',
+#     level_of_crowdedness: 'Low',
+#     price_level: 'Affordable',
+#     spending: '3 to 6 dollars'
+# }
 
+# puts studyarea[:name]
+# puts studyarea[:spending]
 
 
 

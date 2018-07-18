@@ -2,6 +2,11 @@ the_numbers = [37, 609, 892, 516, 485, 358, 815, 591, 906, 99, 0, 307, 755, 944,
 
 sum = 0
 
+the_numbers.each do |x|
+    sum = sum + x
+end
+
+
 # hint: for EACH of the_numbers, add it to sum, by doing
 #       sum = sum + that_number
 #       in the 'do' block.
