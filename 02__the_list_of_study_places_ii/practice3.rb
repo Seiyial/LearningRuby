@@ -19,3 +19,10 @@ subway_outlets = [
 	}
 ]
 
+subway_outlets.each do |subway_outlet|
+	puts subway_outlet[:name]
+	puts subway_outlet[:location]
+	puts subway_outlet[:rating]
+	puts subway_outlet[:opening]
+	puts ''
+end
