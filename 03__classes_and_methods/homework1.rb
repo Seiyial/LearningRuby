@@ -17,6 +17,9 @@ def downcase_and_symbolize(text)
 
 end
 
+# 3. Edit the method below so that if an array is passed in, it will return the first element of the array.
+def get_first_item(input_array)
+
+end
 
 
-# Try running this file!
